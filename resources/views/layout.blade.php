@@ -13,6 +13,7 @@
 @include('partials.header')
 
 @yield('content')
+@yield('system')
 
 @include('partials.footer')
 

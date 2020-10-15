@@ -20,5 +20,5 @@ Route::get('/reviews', function () {
     return view('reviews');
 });
 
-use App\Http\Controllers\ReviewsController;
-Route::resource('reviews', ReviewsController::class);
+use App\Http\Controllers\ReviewController;
+Route::resource('reviews', ReviewController::class);

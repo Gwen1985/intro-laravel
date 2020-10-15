@@ -11,23 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2f3e67-59dd-48ba-808f-97881cce77b3" name="Default Changelist" comment="Added 2 view files and an image folder.">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7ace97e-0fa2-4d69-b1db-d7b434733fb3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7ace97e-0fa2-4d69-b1db-d7b434733fb3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_15_130651_create_reviews_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/gal-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/gal-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/gal-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/gal-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/gal-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/gal-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/logo - kopie.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/reviews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reviews.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -199,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602669087265</updated>
       <workItem from="1602669088604" duration="19578000" />
-      <workItem from="1602747600900" duration="38288000" />
+      <workItem from="1602747600900" duration="40105000" />
     </task>
     <task id="LOCAL-00001" summary="Added 2 view files and an image folder.">
       <created>1602747046733</created>
@@ -222,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602754076437</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added gallery images + controller files + setup review posts">
+      <created>1602800686432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602800686432</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added gallery images + controller files + setup review posts">
+      <created>1602800699136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602800699136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +244,8 @@
     <MESSAGE value="Added 2 view files and an image folder." />
     <MESSAGE value="added partial folder with header &amp; footer file.&#10;created layout.blade.php" />
     <MESSAGE value="delete not needed images" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete not needed images" />
+    <MESSAGE value="added gallery images + controller files + setup review posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gallery images + controller files + setup review posts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="489" y="183" width="979" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602770916210">
@@ -255,10 +256,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1194" y="213" width="390" height="630" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602786364243" />
-    <state x="721" y="242" key="NewPhpClassDialog" timestamp="1602773137568">
+    <state x="313" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602801248408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="242" key="NewPhpClassDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602773137568" />
+    <state x="313" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602801248408" />
+    <state x="721" y="242" key="NewPhpClassDialog" timestamp="1602801206330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="242" key="NewPhpClassDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602801206330" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602751801692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,10 +276,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602785403823" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602754082836">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602800706850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602754082836" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602800706850" />
     <state x="802" y="367" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1602764931193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
