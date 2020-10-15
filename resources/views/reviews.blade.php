@@ -1,14 +1,12 @@
 @extends('layout')
 
 @section('content')
-    <main>
-        <div class="container">
 
-            <div class="row p-4">
-                <h4>TEST TEST 1.. 2..</h4>
-            </div>
+    <main class="container">
 
+        <div class="row">
+            <label for="name"></label>
+            <input required type="text" id="name" name="name" value="<?php echo $name; ?>" placeholder="Name">
         </div>
-
     </main>
 @endsection

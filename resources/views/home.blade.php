@@ -1,39 +1,47 @@
 @extends('layout')
 
 @section('content')
-    <main>
-        <div class="container">
 
-            <div class="row p-4">
-                <div class="col-xl d-flex justify-content-center">
-                    <img src="{{URL::asset('image/timeforthai-mobile.jpg')}}" alt="LOGO" height="200" width="200">
-                </div>
-            </div>
+    <main class="container">
 
-            <div class="row pt-4">
-                <div class="col-md d-flex justify-content-center">
-                    <img src=" " alt="Gallery_1">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="{{URL::asset('image/gal-0.jpg')}}" alt="gal-1"
+                         class=" img-fluid rounded-sm ">
                 </div>
-                <div class="col-md d-flex justify-content-center">
-                    <img src="" alt="Gallery_2">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="{{URL::asset('image/gal-1.jpg')}}" alt="gal-1"
+                         class="img-fluid rounded-sm">
                 </div>
-                <div class="col-md d-flex justify-content-center">
-                    <img src="" alt="Gallery_3">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="{{URL::asset('image/gal-2.jpg')}}" alt="gal-1"
+                         class="img-fluid rounded-sm">
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="row pt-2">
-                <div class="col-md d-flex justify-content-center">
-                    <img src="" alt="Gallery_4">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="{{URL::asset('image/gal-3.jpg')}}" alt="gal-1"
+                         class="img-fluid rounded-sm">
                 </div>
-                <div class="col-md d-flex justify-content-center">
-                    <img src="" alt="Gallery_5">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="{{URL::asset('image/gal-4.jpg')}}" alt="gal-1"
+                         class="img-fluid rounded-sm">
                 </div>
-                <div class="col-md d-flex justify-content-center">
-                    <img src="" alt="Gallery_6">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="{{URL::asset('image/gal-5.jpg')}}" alt="gal-1"
+                         class="img-fluid rounded-sm">
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <form action="">
+
+                </form>
             </div>
         </div>
     </main>
