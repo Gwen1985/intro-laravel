@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2f3e67-59dd-48ba-808f-97881cce77b3" name="Default Changelist" comment="" />
+    <list default="true" id="be2f3e67-59dd-48ba-808f-97881cce77b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/image/markus-winkler-PcBmNPteF_0-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/photo-1541832676-9b763b0239ab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/spicy-thai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/timeforthai-mobile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reviews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reviews.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +28,13 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,11 +157,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\intro-laravel\public\image" />
+      <recent name="C:\xampp\htdocs\intro-laravel\resources" />
+      <recent name="C:\xampp\htdocs\intro-laravel\public" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -161,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602669087265</updated>
-      <workItem from="1602669088604" duration="3270000" />
+      <workItem from="1602669088604" duration="19000000" />
     </task>
     <servers />
   </component>
@@ -192,5 +216,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602669211388" />
+    <state x="733" y="393" width="611" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602699662118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="393" width="611" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602699662118" />
   </component>
 </project>
