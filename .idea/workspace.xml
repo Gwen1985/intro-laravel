@@ -10,22 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2f3e67-59dd-48ba-808f-97881cce77b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/image/markus-winkler-PcBmNPteF_0-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/photo-1541832676-9b763b0239ab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/spicy-thai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/timeforthai-mobile.jpg" afterDir="false" />
+    <list default="true" id="be2f3e67-59dd-48ba-808f-97881cce77b3" name="Default Changelist" comment="Added 2 view files and an image folder.">
+      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/reviews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reviews.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -185,8 +181,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602669087265</updated>
-      <workItem from="1602669088604" duration="19000000" />
+      <workItem from="1602669088604" duration="19578000" />
+      <workItem from="1602747600900" duration="5146000" />
     </task>
+    <task id="LOCAL-00001" summary="Added 2 view files and an image folder.">
+      <created>1602747046733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602747046733</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,20 +207,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added 2 view files and an image folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 view files and an image folder." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602677917991">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602751801692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602677917991" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602751801692" />
     <state x="774" y="222" key="RollbackChangesDialog" timestamp="1602678472356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="774" y="222" key="RollbackChangesDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602678472356" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602669211388">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602747051989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602669211388" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602747051989" />
     <state x="733" y="393" width="611" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602699662118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
