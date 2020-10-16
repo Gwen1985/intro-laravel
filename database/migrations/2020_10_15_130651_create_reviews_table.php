@@ -15,8 +15,9 @@ class CreateReviewsTable extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
-            $table->string('name',25);
-            $table->string('email',35);
+            $table->string('first_name', 25);
+            $table->string('last_name', 25);
+            $table->float('rate');
             $table->text('message');
             $table->timestamps();
         });
