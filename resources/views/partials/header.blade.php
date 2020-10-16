@@ -1,6 +1,6 @@
 <header>
 
-    <div class="row bg-dark text-white">
+    <div class="row bg-dark text-white pt-1">
 
         <div class="col-md-4 d-flex justify-content-center">
             <img src="{{URL::asset('image/logo.png')}}" alt="LOGO" height="80" width="180">

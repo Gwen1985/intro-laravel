@@ -10,18 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2f3e67-59dd-48ba-808f-97881cce77b3" name="Default Changelist" comment="Added 2 view files and an image folder.">
-      <change afterPath="$PROJECT_DIR$/app/Models/Review.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7ace97e-0fa2-4d69-b1db-d7b434733fb3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7ace97e-0fa2-4d69-b1db-d7b434733fb3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="be2f3e67-59dd-48ba-808f-97881cce77b3" name="Default Changelist" comment="creating the form and connect it with DB and controller to show rating and rating messages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Reviews.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_15_130651_create_reviews_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_15_130651_create_reviews_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/reviews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reviews.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +184,7 @@
       <updated>1602669087265</updated>
       <workItem from="1602669088604" duration="19578000" />
       <workItem from="1602747600900" duration="40355000" />
-      <workItem from="1602831949210" duration="11111000" />
+      <workItem from="1602831949210" duration="21255000" />
     </task>
     <task id="LOCAL-00001" summary="Added 2 view files and an image folder.">
       <created>1602747046733</created>
@@ -236,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602802490852</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="creating the form and connect it with DB and controller to show rating and rating messages">
+      <created>1602863491579</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602863491579</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +259,8 @@
     <MESSAGE value="delete not needed images" />
     <MESSAGE value="added gallery images + controller files + setup review posts" />
     <MESSAGE value="added HomeController.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HomeController.php" />
+    <MESSAGE value="creating the form and connect it with DB and controller to show rating and rating messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating the form and connect it with DB and controller to show rating and rating messages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="489" y="183" width="979" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602770916210">
@@ -291,10 +291,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602785403823" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602863418910">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602863496550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602863418910" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1602863496550" />
     <state x="802" y="367" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1602764931193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
